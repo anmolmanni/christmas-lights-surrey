@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://anmolmanni.github.io/christmas-lights-surrey/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://anmolmanni.github.io/christmas-lights-surrey/images/hero-house.jpg</image:loc>
+      <image:title>Christmas lights house at 7516 129A Street, Surrey BC — full house lit up</image:title>
+      <image:geo_location>Surrey, British Columbia, Canada</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://anmolmanni.github.io/christmas-lights-surrey/images/santa-chair.jpg</image:loc>
+      <image:title>Santa photo spot with giant nutcracker at the Surrey Christmas lights house</image:title>
+      <image:geo_location>Surrey, British Columbia, Canada</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://anmolmanni.github.io/christmas-lights-surrey/images/nativity.jpg</image:loc>
+      <image:title>Illuminated nativity scene at the Newton Surrey Christmas light display</image:title>
+      <image:geo_location>Surrey, British Columbia, Canada</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://anmolmanni.github.io/christmas-lights-surrey/images/reindeer-herd.jpg</image:loc>
+      <image:title>Glowing reindeer herd at the Christmas lights house in Surrey BC</image:title>
+      <image:geo_location>Surrey, British Columbia, Canada</image:geo_location>
+    </image:image>
+  </url>
+</urlset>

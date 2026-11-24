@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anmolmanni.github.io/christmas-lights-surrey/sitemap.xml
