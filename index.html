@@ -107,6 +107,11 @@
   details p{color:var(--muted);margin-top:8px}
   footer{background:#070b1d;padding:34px 0;text-align:center;color:var(--muted);font-size:.92rem}
   footer .big{color:var(--snow);font-weight:700;font-size:1.05rem}
+  /* Video intro */
+  .video-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:16px;align-items:stretch}
+  @media(max-width:760px){.video-grid{grid-template-columns:1fr}}
+  .video-grid video{width:100%;height:100%;object-fit:cover;border-radius:var(--radius);border:1px solid rgba(255,255,255,.12);background:#000}
+  .video-main{min-height:320px}
   .lightbox{position:fixed;inset:0;background:rgba(4,6,18,.94);display:none;align-items:center;justify-content:center;z-index:50;padding:20px}
   .lightbox.open{display:flex}
   .lightbox img{max-width:94vw;max-height:88vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
@@ -127,8 +132,20 @@
     <p>Thousands of twinkling lights, giant inflatables, a glowing reindeer herd, a nativity scene and Santa himself — our whole house and driveway turned into a walk-through Christmas wonderland. Come by and feel the magic!</p>
     <a class="btn" href="https://www.google.com/maps/search/?api=1&query=7516+129A+Street+Surrey+BC+V3W+1B1" target="_blank" rel="noopener">📍 Get Directions</a>
     <a class="btn ghost" href="#gallery">✨ See the Photos</a>
+    <a class="btn ghost" href="#intro">▶ Watch the Intro</a>
   </div>
 </header>
+
+<section id="intro">
+  <div class="wrap">
+    <h2>Watch the <span class="gold">Magic</span></h2>
+    <p class="sub">A little taste of the display — press play and step into our Christmas wonderland.</p>
+    <div class="video-grid">
+      <video class="video-main" src="videos/intro.mp4" poster="images/intro-poster.jpg" autoplay muted loop playsinline controls></video>
+      <video src="videos/tour.mp4" poster="images/welcome-view.jpg" muted loop playsinline controls></video>
+    </div>
+  </div>
+</section>
 
 <section>
   <div class="wrap">
@@ -160,6 +177,10 @@
       <figure><img src="images/gingerbread-house.jpg" alt="Inflatable gingerbread house and giant blue star at the Surrey Christmas lights display" loading="lazy"><figcaption>The gingerbread house under the giant blue star</figcaption></figure>
       <figure><img src="images/inflatables-nativity.jpg" alt="Inflatable Santa with polar bear, unicorn and cat beside the nativity stable in Surrey" loading="lazy"><figcaption>More inflatable friends beside the stable</figcaption></figure>
       <figure><img src="images/north-pole-wide.jpg" alt="Wide view of the Christmas house in Surrey with red star, ornament arch and North Pole cabin" loading="lazy"><figcaption>The red star, ornament arch and cabin together</figcaption></figure>
+      <figure><img src="images/welcome-view.jpg" alt="Welcome sign at the driveway of the Christmas lights house at 7516 129A Street Surrey BC" loading="lazy"><figcaption>The full display from the driveway — welcome in!</figcaption></figure>
+      <figure><img src="images/giant-star.jpg" alt="Giant glowing star with Santa and a Christmas moose at the Surrey BC Christmas lights display" loading="lazy"><figcaption>The giant star with Santa and the moose</figcaption></figure>
+      <figure><img src="images/street-view.jpg" alt="Street view of the Christmas lights house in Newton Surrey with glowing green stars" loading="lazy"><figcaption>The view from the street under the moon</figcaption></figure>
+      <figure><img src="images/roof-lights.jpg" alt="Roof of the Surrey Christmas house covered in purple, green and white lights" loading="lazy"><figcaption>The roof — purple, green and white all over</figcaption></figure>
     </div>
   </div>
 </section>
